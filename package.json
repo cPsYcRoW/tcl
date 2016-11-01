@@ -1,23 +1,34 @@
 {
 	"name": "tcl",
-	"displayName": "TCL",
-	"description": "TCL Language Support",
-	"version": "0.0.2",
-	"publisher": "rashwell",
-	"engines": {
-		"vscode": "^0.10.1"
+	"displayName": "Tcl/Tk",
+	"description": "Tcl/Tk Language Support",
+	"version": "0.1.0",
+	"publisher": "sleutho",
+	"author": {
+		"email": "sascha.leuthold@live.com",
+		"name": "Sascha Leuthold",
+		"url": "https://github.com/sleutho"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/rashwell/tcl.git"
+		"url": "https://github.com/sleutho/tcl/"
+	},
+	"bugs": {
+		"url": "https://github.com/sleutho/tcl/issues"
+	},
+	"engines": {
+        "vscode": "^1.5.0"
 	},
 	"categories": [
 		"Languages"
 	],
-	"galleryBanner": {
-		"color": "#9AB3CF",
-		"theme": "light"
-	},
+	"keywords": [
+		"Languages",
+		"Tcl",
+		"Tcl/Tk",
+        "Tk"
+	],
+	"icon": "images/logo.png",
 	"contributes": {
 		"languages": [
 			{
